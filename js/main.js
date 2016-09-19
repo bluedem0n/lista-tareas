@@ -1,16 +1,16 @@
-(function(){
+(function () {
     /* Variables */
     var lista = document.getElementById("lista"),
         tareaInput = document.getElementById("tareaInput"),
         btnNuevaTarea = document.getElementById("btn-agregar");
     /* Funciones */
-    var agregarTarea = function (){
+    var agregarTarea = function () {
         var tarea = tareaInput.value,
             nuevaTarea = document.createElement("li"),
             enlace = document.createElement("a"),
             contenido = document.createTextNode(tarea);
-        if(tarea === ""){
-            tareaInput.setAttribute("placeholder","Agrega una tarea válida");
+        if(tarea === "") {
+            tareaInput.setAttribute("placeholder", "Agrega una tarea válida");
             tareaInput.className = "error";
             return false;
         }
@@ -36,7 +36,6 @@
     var eliminarTarea = function(){
          this.parentNode.removeChild(child);
     };
-
 
     btnNuevaTarea.addEventListener("click",agregarTarea);
     tareaInput.addEventListener("click",comprobarInput);
