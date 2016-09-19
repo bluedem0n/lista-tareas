@@ -5,11 +5,6 @@
         tareaInput = document.getElementById("tareaInput"),
         btnNuevaTarea = document.getElementById("btn-agregar");
     /* Funciones */
-=======
-    var lista = document.getElementById("lista"),
-        tareaInput = document.getElementById("tareaInput"),
-        btnNuevaTarea = document.getElementById("btn-agregar");
->>>>>>> 428532a9f85cb8cba08e48b3db0555f34922a199
     var agregarTarea = function (){
         var tarea = tareaInput.value,
             nuevaTarea = document.createElement("li"),
