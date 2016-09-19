@@ -1,9 +1,9 @@
 (function(){
-    // Variables
+    /* Variables */
     var lista = document.getElementById("lista"),
         tareaInput = document.getElementById("tareaInput"),
         btnNuevaTarea = document.getElementById("btn-agregar");
-    // Funciones
+    /* Funciones */
     var agregarTarea = function (){
         var tarea = tareaInput.value,
             nuevaTarea = document.createElement("li"),
