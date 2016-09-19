@@ -19,8 +19,8 @@ body {
 }
  
 .principal {
-	background: #F44336;
-	border-top: 20px solid #D32F2F;
+	background: #71e3a2;
+	border-top: 20px solid #71e3a2;
 	color: #fff;
 	padding: 50px 0;
 	width: 100%;
@@ -38,13 +38,13 @@ body {
 }
  
 .principal .formulario input[type=text].error {
-	border: 5px solid #D32F2F;
+	border: 5px solid #ea4242;
 	color: red;
 }
  
 .principal .formulario .boton {
 	background: none;
-	border: 1px solid #D32F2F;
+	border: 1px solid #0985c7;
 	color: #fff;
 	display: inline-block;
 	font-size: 16px;
