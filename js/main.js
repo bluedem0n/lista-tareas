@@ -8,7 +8,7 @@
             enlace = document.createElement("a"),
             contenido = document.createTextNode(tarea);
         if(tarea === ""){
-            tareaInput.setAttribute("placeholder","Agrega una tarea valida");
+            tareaInput.setAttribute("placeholder","Agrega una tarea válida");
             tareaInput.className = "error";
             return false;
         }
@@ -45,3 +45,19 @@
     }
     
 }());
+
+function previewFile() {
+  var preview = document.querySelector('img');
+  var file    = document.querySelector('input[type=file]').files[0];
+  var reader  = new FileReader();
+
+  reader.onloadend = function () {
+    preview.src = reader.result;
+  }
+
+  if (file) {
+    reader.readAsDataURL(file);
+  } else {
+    preview.src = "";
+  }
+}

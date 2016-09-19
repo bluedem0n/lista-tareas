@@ -8,7 +8,7 @@
  
 body {
 	background: #FAFAFA;
-	font-family: arial, helvetica, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 }
  
@@ -22,8 +22,9 @@ body {
 	background: #71e3a2;
 	border-top: 20px solid #71e3a2;
 	color: #fff;
-	padding: 50px 0;
+	padding: 30px 0;
 	width: 100%;
+    height: 360px;
 }
  
 .principal .formulario {
@@ -32,7 +33,7 @@ body {
 }
  
 .principal .formulario input[type=text] {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding: 10px;
 	width: 100%;
 }
@@ -73,4 +74,11 @@ body {
  
 .tareas .lista li a:hover {
 	text-decoration: line-through;
+}
+.inputSeleccionar{
+    color:  #fff;
+}
+.subir{
+    text-align: left;
+    padding-bottom: 11px;
 }
